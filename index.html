@@ -2,12 +2,44 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Joe Robb's Portfolio</title>
+	<title>The Code Review</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
+	<header class="header">
+		<h1 class="main-header">The Code Review</h1>
+	</header>
+	<div class="banner">
+		<h1>Signup for our newsletter</h1>
+		<p>Get the latest news on how your code is doing right in your inbox</p>
+	</div>
+	<form action="index.html" method="post">
+		<h1 class="contact">Contact Information</h1>
+			<label for="name">Full Name</label>
+			<input type="text" id="name" name="user_name" placeholder="Required ">
+			<label for="mail">Email Address</label>
+			<input type="email" id="mail" name="user_email" placeholder="Required ">
+			<label for="phone">Phone Number</label>
+		  <input type="phone" id="phone" name="user_phone">
+			<label for="street">Street Address</label>
+			<input type="street" id="street" name="user_street">
+			<label for="city">City</label>
+			<input type="city" id="city" name="user_city">
+			<label for="state">County</label>
+			<select id="state" name="user_state">
+				<option value="" disabled selected>Choose your county:</option>
+				<option value="Cumbria">Cumbria</option>
+				<option value="Merseyside">Merseyside</option>
+				<option value="Northumrbia">Northumbria</option>
+				<option value="Lancashire">Lancashire</option>
+				<option value="London">London</option>
+		</select>
+			<label for="zip">Post Code</label>
+			<input type="zip" id="zip" name="user_zip">
+  </form>
+</div>
 
 
 
