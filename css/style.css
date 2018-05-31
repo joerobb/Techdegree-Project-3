@@ -59,10 +59,12 @@ form {
 
 .contact {
  text-align: left;
+ font-size: 28px;
 }
 
 .newsletter {
   text-align: left;
+  font-size: 28px;
   padding-top: 30px;
   margin-top: 10px;
   border-top: 3px solid #000000;
@@ -102,10 +104,14 @@ textarea
   text-align: left;
 }
 
-input:focus,
+input:focus {
+  border: solid;
+  border-color:#333333;
+}
+
 textarea:focus {
   border: solid;
-  border-color:333333;
+  border-color:#333333;
 }
 
 label[for="zip"] {
@@ -121,7 +127,6 @@ input[type="checkbox"] {
 input[placeholder] {
   font-style: italic;
   text-align: right;
-  direction: left;
 }
 
 input[type="zip"] {
@@ -188,6 +193,11 @@ footer {
   #content {
       width: 768px;
       margin: 0 auto;
+    }
+
+ label[for="zip"] {
+      margin-top: 40px;
+      margin-bottom: 20px;
     }
 
 
