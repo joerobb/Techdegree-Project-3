@@ -39,7 +39,7 @@ form {
   margin-left: 25px;
   margin-right: 25px;
   border-top: 3px solid #000000;
-
+  max-width: 768px;
 }
 
 .main-header {
@@ -54,6 +54,7 @@ form {
   padding-top: 20px;
   padding-bottom: 40px;
   border-bottom: 6px solid #000000;
+  max-width: 768px;
 }
 
 .contact {
@@ -101,9 +102,10 @@ textarea
   text-align: left;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   border: solid;
-  border-color:000;
+  border-color:333333;
 }
 
 label[for="zip"] {
@@ -119,6 +121,7 @@ input[type="checkbox"] {
 input[placeholder] {
   font-style: italic;
   text-align: right;
+  direction: left;
 }
 
 input[type="zip"] {
@@ -150,6 +153,10 @@ button.submit {
   width: 100%;
 }
 
+button:hover {
+  opacity: .75;
+}
+
 label {
   display: block;
   margin-bottom: 10px;
@@ -176,4 +183,32 @@ footer {
 }
 
 
-@media screen and (min-width: ) {
+@media screen and (min-width:768px ) {
+
+  #content {
+      width: 768px;
+      margin: 0 auto;
+    }
+
+
+  input[type="text"],
+  input[type="password"],
+  input[type="street"],
+  input[type="city"],
+  input[type="email"],
+  input[type="state"],
+  input[type="zip"],
+  input[type="phone"],
+  select
+   {
+    width: 74.3%;
+  }
+
+  label {
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+  }​
+
+
+  }
