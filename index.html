@@ -41,9 +41,14 @@
 
 	<h1 class="newsletter">Newsletter</h1>
 	<p class="news">Select the newsletters you would like to receive</p>
-	<input type="checkbox" id="html" value="interest_html" name="user_html">Html News</input> <br>
-	<input type="checkbox" id="css" value="interest_css" name="user_css">CSS News</input> <br>
-	<input type="checkbox" id="java" value="interest_java" name="user_java">Javascript News</input>
+	<input type="checkbox" id="html" value="interest_html" name="user_html"><label class= "light" for="html">Html News</label> <br>
+	<input type="checkbox" id="css" value="interest_css" name="user_css"><label class= "light" for="html">CSS News</label><br>
+	<input type="checkbox" id="java" value="interest_java" name="user_java"><label class= "light" for="html">Javascript News</label>
+  <p class="news">Newsletter Format</p>
+	<input type="radio" id="htmls" value="format" name="user_format"><label for="htmls" class="light">HTML</label> <br>
+	<input type="radio" id="plain" value="format" name="user_format"><label for="plain" class="light">Plain Text</label>
+	<p class="news">Other topics you would like to hear about</p>
+	<textarea id="topic" name="user_topic"></textarea>
 
   </form>
 

@@ -69,6 +69,8 @@ form {
 
 .news {
   text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 input[type="text"],
@@ -121,6 +123,7 @@ input[placeholder] {
 
 input[type="zip"] {
   width: 240px;
+  margin-top: -7px;
 }
 
 select {
@@ -142,14 +145,19 @@ button {
   margin-bottom: 10px;
 }
 
-
 label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 22px;
   color: #a6a6a6;
 }
 
+label.light {
+  padding-bottom: 30px;
+  margin-left: 20px;
+  font-weight: 300;
+  display: inline;
+}
 
 
 @media screen and (min-width: ) {
