@@ -71,6 +71,7 @@ form {
   text-align: left;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-left:-10px;
 }
 
 input[type="text"],
@@ -108,12 +109,11 @@ input:focus {
 label[for="zip"] {
   margin-top: 30px;
   margin-bottom: 20px;
-
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 0 4px 8px 0;
+  margin: 15px 5px 15px;
 }
 
 input[placeholder] {
@@ -130,19 +130,24 @@ select {
   color: #8a97a0;
 }
 
+textarea {
+  height: 140px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
 
-button {
+button.submit {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #4bc970;
-  font-size: 18px;
+  background-color: #20B2AA;
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
-  font-style: normal;
+  border: none;
   border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 40px;
   width: 100%;
-  border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-  margin-bottom: 10px;
 }
 
 label {
@@ -153,10 +158,21 @@ label {
 }
 
 label.light {
-  padding-bottom: 30px;
   margin-left: 20px;
   font-weight: 300;
   display: inline;
+}
+
+span {
+  font-size: 20px;
+  font-style: italic;
+  color: #a6a6a6;
+}
+
+footer {
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:200px;
 }
 
 
