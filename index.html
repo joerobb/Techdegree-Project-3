@@ -17,7 +17,8 @@
 		<p>Get the latest news on how your code is doing right in your inbox</p>
 	</div>
 	<form action="index.html" method="post">
-		<h1 class="contact">Contact Information</h1>
+		<fieldset class="fieldset">
+		<legend class="contact">Contact Information</legend>
 			<label for="name">Full Name</label>
 			<input  type="text" id="name" name="user_name" placeholder="Required ">
 			<label  for="mail">Email Address</label>
@@ -39,8 +40,10 @@
 		</select>
 			<label  for="zip">Post Code</label>
 			<input  type="text" id="zip" name="user_zip">
-
-	<h1 class="newsletter">Newsletter</h1>
+			<div class="border"></div>
+</fieldset>
+<fieldset class= "fieldset">
+	<legend class="newsletter">Newsletter</legend>
 	<p class="news">Select the newsletters you would like to receive</p>
 	<input type="checkbox" id="html" value="interest_html" name="user_interest"><label class= "light" for="html">Html News</label> <br>
 	<input type="checkbox" id="css" value="interest_css" name="user_interest"><label class= "light" for="html">CSS News</label><br>
@@ -50,8 +53,8 @@
 	<input type="radio" id="plain" value="format" name="user_format"><label for="plain" class="light">Plain Text</label>
 	<p class="news">Other topics you'd like to hear about</p>
 	<textarea id="topic" name="user_topic"></textarea>
-
 	<button class="submit" type="submit">Sign Up</button>
+</fieldset>
 </form>
 
 	<footer>
