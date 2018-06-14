@@ -84,7 +84,6 @@ input[type="street"],
 input[type="city"],
 input[type="email"],
 input[type="state"],
-input[type="zip"],
 input[type="tel"],
 select,
 textarea
@@ -135,11 +134,6 @@ input[type="checkbox"] {
 input[placeholder] {
   font-style: italic;
   text-align: right;
-}
-
-input[type="zip"] {
-  width: 240px;
-  margin-top: -7px;
 }
 
 select {
